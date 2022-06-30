@@ -2,12 +2,12 @@
 /* RESET STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
-  --bg_main: #0c6396;
-  --text_light: #fff;
-  --text_med: #53627c;
-  --text_dark: #1e2432;
-  --red: #ff1e42;
-  --darkred: #c3112d;
+  --bg_main: #5d208c;
+  --text_light: rgb(0, 0, 0);
+  --text_med: #fdfdfd;
+  --text_dark: #5f8df7;
+  --red: #af9a9a;
+  --darkred: #9b6971;
   --orange: #ff8c00;
 }
 
@@ -51,7 +51,7 @@ ul {
 
 body {
   font: 1rem/1.3 "Roboto", sans-serif;
-  background: var(--bg_main);
+  background: url(https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   color: var(--text_dark);
   padding: 70px;
 }
