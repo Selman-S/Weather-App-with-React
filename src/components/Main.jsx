@@ -11,6 +11,8 @@ const Main = () => {
       e.preventDefault();
       getWeatherDataFromApi();
       setSearchText('')
+      e.target.firstElementChild.value =""
+    
   }
   const handleChange = (e) => {
     setSearchText(e.target.value)
