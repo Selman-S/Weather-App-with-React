@@ -37,9 +37,10 @@ const Main = () => {
       }
       
       
-    } catch (error) {
+    } catch (err) {
       setError(error.message);
       setTimeout(() => setError(""), 3000);
+      console.log(error)
     }
   }
  

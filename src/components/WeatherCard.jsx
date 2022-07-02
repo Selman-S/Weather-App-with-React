@@ -1,5 +1,5 @@
 const WeatherCard = (props) => {
-  const { id, main, name, sys, weather, iconUrl } = props;
+  const { main, name, sys, weather, iconUrl } = props;
   return (
     <li className="city">
       <h2 className="city-name">
@@ -11,7 +11,7 @@ const WeatherCard = (props) => {
         <sup>°C</sup>
       </div>
       <figure>
-        <img className="city-icon" src={iconUrl} />
+        <img className="city-icon" src={iconUrl} alt="imag" />
         <figcaption>{weather[0].description}</figcaption>
       </figure>
     </li>
